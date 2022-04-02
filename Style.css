@@ -1,0 +1,114 @@
+﻿/* General */
+body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        header {
+            background-color: black;
+            padding: 15px;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'Pacifico', cursive;
+        }
+        main {
+            flex-grow: 1;
+            background: url('./images/login-background.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 900px;
+            width: 100%;
+            font-size: 24px;
+            font-family: 'Pacifico', cursive;
+
+        }
+            
+         input[type=text], input[type=password], input[type=email]{
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        width: 90%;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        }
+
+        /* Login-box */
+
+        .login-box-container{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            height: 100%;
+         }
+        
+        .login-box {
+            border: 1px solid grey;
+            width: 400px;
+            padding: 20px 50px;
+            box-sizing: border-box;
+            text-align: center; 
+            /*background: rgba(255,255,255,0.3); */
+            background: white;
+            border-radius: 10px;
+        }
+        .login-box h1 {
+            text-align: left;
+        }
+        .login-box a {
+            font-weight: bold;
+            color: black;
+        }
+       
+        .primary-button {
+        color: white;
+        background-color: #006D77;
+        border: none;
+        padding: 10px 20px;
+        }
+
+        .login-button{
+            margin: auto;
+            display: block;
+        }
+        /* Home */
+        .home-main {
+            display: flex;
+            justify-content: center;
+        }
+        .timeline-container {
+            background-color: white;
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+        }
+        .chatters-feed{
+            flex-grow: 4;
+            border-right:1px solid lightgrey;
+        }
+        .recent-users-feed{
+            flex-grow:1;
+            padding: 20px;
+        }
+
+        /*chatter */
+
+        .chatter {
+            display: flex;
+        }
+        .chatter .profile-pic {
+            font-size: 50px;
+            margin-right: 20px;
+            font-size: 18px;
+        }
+        .chatter p {
+            margin-top:0;
+        }
+        .chatter .metadata {
+            font-size: 5px;
+            font-color: grey;
+        }
